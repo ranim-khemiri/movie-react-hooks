@@ -1,16 +1,39 @@
-# React + Vite
+# 🎬 Movie React Hooks
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## 📌 Description
 
-Currently, two official plugins are available:
+Movie React Hooks est une petite application de cinéma réalisée avec React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+L'application permet d'afficher des films et de rechercher des films selon leur titre et leur note.
 
-## React Compiler
+## 🚀 Fonctionnalités
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Afficher une liste de films
+- Afficher le titre, la description, l'affiche et la note
+- Rechercher un film par son titre
+- Filtrer les films selon leur note
+- Ajouter un nouveau film
 
-## Expanding the Oxlint configuration
+## 🛠️ Technologies utilisées
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- JavaScript
+- CSS
+- React Hooks
+- Vite
+
+## 📁 Structure du projet
+
+```text
+movie
+├── src
+│   ├── components
+│   │   ├── MovieCard.jsx
+│   │   ├── MovieList.jsx
+│   │   └── Filtre.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+├── public
+├── package.json
+└── vite.config.js
